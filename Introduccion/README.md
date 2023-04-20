@@ -1,1 +1,1 @@
-# OpenB
+Introducción a la Programación
