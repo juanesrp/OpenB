@@ -1,4 +1,4 @@
-package OB;
+package OB.Introduccion;
 
 public class sentanciasDeControl {
 
