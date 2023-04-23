@@ -1,0 +1,52 @@
+/*Estilos para colores*/
+.colores{
+    color:orangered
+}
+
+.color-hexadecimal{
+    color: #1D3354;
+}
+
+.color-rgb{
+    color: rgb(53,71, 226);
+}
+
+.color-rgba{
+    color: rgba(10,10,10,0.2);
+}
+
+/*Fondos*/
+
+.fondo{
+    background-color: cornflowerblue;
+    background-image: url(https://imgs.search.brave.com/fdqMe44TEc_EOueBuPUf-V-QMPQ0csxmSfxsTla41lc/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/a093c0JGVTZicy1p/c0tmZnJGOTh3SGFF/byZwaWQ9QXBp);
+    background-position: left top;
+}
+
+.fondo-interno{
+    background-color: cornflowerblue;
+    background-image: url(imagenes/th.webp);
+    background-position: left top;
+}
+
+/*Tamaños*/
+
+.ancho{
+    background-color: #1D3354;
+    width: 100px;
+}
+
+.alto{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150,150,150);
+    border-width: 1px;
+    /* border-top: none; */
+    /* padding: 10px 20px 30px 40px; */
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
