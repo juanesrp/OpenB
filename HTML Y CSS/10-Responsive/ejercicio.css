@@ -1,0 +1,35 @@
+.contenedor{
+    display: flex;
+    gap: 5px;
+}
+
+.barra-izq{
+    padding: 10px;
+    background-color:#ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item{
+    background-color: bisque;
+    padding: 5px 10px;
+}
+
+.seccion-principal{
+    background-color: coral;
+    flex-grow: 1;
+}
+ @media (max-width: 640px ) {
+    .contenedor{
+        flex-direction: column;
+    }
+    .barra-izq{
+        flex-direction: row;
+    }
+    .seccion-principal{
+        order: -1;
+    }
+ }
+
