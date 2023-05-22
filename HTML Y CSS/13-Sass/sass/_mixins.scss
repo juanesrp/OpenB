@@ -1,0 +1,11 @@
+/*Mixin*/
+
+@mixin formato-texto($bg-color:#f1f1f1){
+    color: $text-color;
+    width: 50rem;
+    text-transform: uppercase;
+    background-color: $bg-color;
+}
+
+/*Variables*/
+$text-color: #2b2b2b;
